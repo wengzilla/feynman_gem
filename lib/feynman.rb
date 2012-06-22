@@ -2,7 +2,7 @@ require "feynman/version"
 require "faraday"
 require "json"
 
-module Feynman
+module Testing
   class Client
     attr_accessor :conn, :token, :options
 
