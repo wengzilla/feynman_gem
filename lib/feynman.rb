@@ -24,7 +24,7 @@ module Feynman
       end
       [resp.status, resp.body]
     end
-
+  end
   #   def get_feed(display_name)
   #     resp = @conn.get do |req|
   #       req.url "/feeds/#{display_name}.json"
