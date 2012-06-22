@@ -15,7 +15,7 @@ module Feynman
 
     end
 
-    def create_event(display_name, body)
+    def create_event(body)
       resp = @conn.post do |req|
         req.url "/events.json"
         req.params['token'] = @token

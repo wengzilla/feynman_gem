@@ -14,4 +14,6 @@ Gem::Specification.new do |gem|
   gem.name          = "feynman_client"
   gem.require_paths = ["lib"]
   gem.version       = Feynman::VERSION
+
+  gem.add_runtime_dependency 'faraday'
 end
